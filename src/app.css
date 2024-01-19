@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+  --clr-primary-1: hsl(14, 45%, 36%);
+  --clr-primary-2: hsl(332, 51%, 32%);
+  --clr-neutral-1: hsl(0, 0%, 100%);
+  --clr-neutral-2: hsl(330, 100%, 98%);
+  --clr-neutral-3: hsl(30, 54%, 90%);
+  --clr-neutral-4: hsl(30, 18%, 87%);
+  --clr-neutral-5: hsl(30, 10%, 34%);
+  --clr-neutral-6: hsl(24, 5%, 18%);
+  --fs: 16px;
+  --ff-primary-1: 'Young Serif';
+  --ff-primary-2: 'Outfit';
+  --fw-light: 400;
+  --fw-medium: 600;
+  --fw-bold: 700;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img, picture, svg, source {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  min-height: 100dvh;
+  font-size: var(--fs);
+  background-color: var(--clr-neutral-3);
+  /* line-height: 2rem; */
+  display: grid;
+  place-content: center;
+}
+
